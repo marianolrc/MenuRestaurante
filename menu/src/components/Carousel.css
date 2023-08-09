@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+.img-car{
+    box-shadow: 2px 2px 16px #000;
+}
+.contenedor{
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 3rem;
+
+}
+.titulo{
+    font-family: 'Montserrat';
+    font-weight: 600;
+
+    letter-spacing: 1px;
+    color: powderblue;
+    text-shadow: 2px 2px 6px #16DB65;
+}
+
+.descripcion{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: powderblue;
+    text-shadow: 2px 2px 6px #16DB65;
+}
