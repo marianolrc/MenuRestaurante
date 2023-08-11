@@ -1,10 +1,12 @@
 import React from 'react'
 import NavBarMenu from '../components/NavBarMenu.jsx'
+import Footer from '../components/Footer.jsx'
 
 const Home = () => {
   return (
     <div>
           <NavBarMenu/>
+         
     <div className="container">
     <div className="row">
         <div className="col">
@@ -12,6 +14,7 @@ const Home = () => {
         </div>
     </div>
   </div>
+  <Footer/>
     </div>
   )
 }
