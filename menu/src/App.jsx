@@ -3,10 +3,11 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import HomeScreen from './pages/Home';
 import NavBarMenu from './components/NavBarMenu';
 import PageNotFound from './pages/Error404';
+import './App.css'
 
 const App = () => {
   return (
-    <div>
+    <div className='App'>
     <BrowserRouter>
 
     <Routes>

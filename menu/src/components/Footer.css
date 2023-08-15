@@ -1,9 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.footer{
+.Footer{
     width: 100%;
+    margin-top: 2rem;
+    padding: 0;
+    background: black;
 }
