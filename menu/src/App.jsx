@@ -4,6 +4,7 @@ import HomeScreen from './pages/Home';
 import NavBarMenu from './components/NavBarMenu';
 import PageNotFound from './pages/Error404';
 import './App.css'
+import MenuBotones from './pages/Plantilla_cliente';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
     <Routes>
       <Route path='/' element={<HomeScreen/>}/>
       <Route path='*' element={<PageNotFound/>}/>
+      <Route path='*' element={<MenuBotones/>}/>
     </Routes>
     
     </BrowserRouter>

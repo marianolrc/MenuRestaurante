@@ -1,7 +1,5 @@
 
 .Home{
-    height: 100vh;
-    background: rgb(2,2,2);
-background: linear-gradient(17deg, rgba(2,2,2,1) 0%, rgba(11,251,97,1) 35%, rgba(13,40,24,0.8799894957983193) 93%, rgba(5,140,66,0.8015581232492998) 100%) !important;
-
+    background: rgb(158,232,136);
+    background: linear-gradient(54deg, rgba(158,232,136,0.6979166666666667) 36%, rgba(243,250,243,0.6082808123249299) 94%);
 }
