@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import "./card.css";
 
-function Card({ imageSource, title, text, url }) {
+const Card = ({ imageSource, title, text, url }) => {
   return (
     <div className="card text-center bg-dark animate__animated animate__fadeInUp">
       <div className="overflow">
@@ -16,7 +16,6 @@ function Card({ imageSource, title, text, url }) {
         </p>
         <a
           href={url ? url : "#!"}
-          target="_blank"
           className="btn btn-outline-secondary border-0"
           rel="noreferrer"
         >

@@ -11,7 +11,7 @@ const cards = [
       title: "Comidas",
       text: "Los mejores sabores de la Cocina Argentina",
       image: Imagen1,
-      url: "",
+      url: "menucomidas",
     },
     {
       id: 2,
