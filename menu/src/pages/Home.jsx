@@ -5,6 +5,8 @@ import Carousel from '../components/Carousel.jsx'
 import Cards from '../components/cards.jsx'
 import './Home.css'
 import CardEntradas from '../components/cardsEntradas.jsx'
+import terraza from '../assets/img/terraza.jpg'
+import Image from 'react-bootstrap/Image';
 
 const Home = () => {
   return (
@@ -16,6 +18,11 @@ const Home = () => {
     <div className='Cards'>
     <Cards/>
     </div>
+  </div>
+
+  <div className='d-none d-sm-block'>
+  <h1 className='bg-dark text-light text-center'>Disfruta de una hermosa vista de la ciudad.</h1>
+  <Image src={terraza} fluid />;
   </div>
   
 

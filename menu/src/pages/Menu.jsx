@@ -7,6 +7,7 @@ import CardEntradas from '../components/cardsEntradas.jsx';
 import CardPlatosPrincipales from '../components/cardPlatosPrincipales.jsx';
 import CardsPostres from '../components/CardsPostres.jsx';
 import CardsBebidas from '../components/CardsBebidas.jsx';
+import Footer from '../components/Footer.jsx';
 
 
 const Menu = () => {
@@ -17,7 +18,7 @@ const Menu = () => {
 
         <div >
         <Tabs
-      defaultActiveKey="profile"
+      defaultActive="profile"
       id="uncontrolled-tab-example"
       className="mb-3 d-flex justify-content-center"
     >
@@ -34,6 +35,10 @@ const Menu = () => {
         <CardsBebidas></CardsBebidas>
       </Tab>
     </Tabs>
+
+    <div className='container-fluid bg-dark mt-3'>
+    <Footer/>
+    </div>
 
 
         </div>
