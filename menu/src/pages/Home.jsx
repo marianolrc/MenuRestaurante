@@ -13,11 +13,15 @@ const Home = () => {
     <div className='Home'>
           <NavBarMenu/>
           
-    <div className="container">
-    <Carousel/>
+   {/*  <div className="container">
     <div className='Cards'>
-    <Cards/>
     </div>
+  </div> */}
+  <div className='mb-5'>
+    <Carousel/>
+  </div>
+  <div className='mt-3 mb-5'>
+    <Cards/>
   </div>
 
   <div className='d-none d-sm-block'>
