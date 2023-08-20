@@ -5,6 +5,7 @@ import PageNotFound from './pages/Error404';
 import Admin from './pages/Admin';
 import './App.css'
 import MenuBotones from './pages/Plantilla_cliente';
+import AboutUs from './pages/AboutUs';
 
 
 const App = () => {
@@ -14,7 +15,7 @@ const App = () => {
     <Routes>
       <Route path='/' element={<HomeScreen/>}/>
       <Route path='/admin' element={<Admin/>}/>
-      <Route path='*' element={<PageNotFound/>}/>
+      <Route path='/AboutUs' element={<AboutUs/>}/>
       <Route path='*' element={<MenuBotones/>}/>
     </Routes>
     

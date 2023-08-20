@@ -4,6 +4,7 @@ import Footer from '../components/Footer.jsx'
 import Carousel from '../components/Carousel.jsx'
 import Cards from '../components/cards.jsx'
 import './Home.css'
+import CardEntradas from '../components/cardsEntradas.jsx'
 
 const Home = () => {
   return (
@@ -15,9 +16,12 @@ const Home = () => {
     <div className='Cards'>
     <Cards/>
     </div>
-  
   </div>
-  <div className='Footer'>
+  
+    <div className='bg-dark text-light text-center'><h1>Entradas</h1> </div>
+    <CardEntradas></CardEntradas>
+
+  <div className='container-fluid bg-dark mt-3'>
   <Footer/>
   </div>
   
