@@ -5,6 +5,8 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import CardEntradas from '../components/cardsEntradas.jsx';
 import CardPlatosPrincipales from '../components/cardPlatosPrincipales.jsx';
+import CardsPostres from '../components/CardsPostres.jsx';
+import CardsBebidas from '../components/CardsBebidas.jsx';
 
 
 const Menu = () => {
@@ -26,10 +28,10 @@ const Menu = () => {
        <CardPlatosPrincipales></CardPlatosPrincipales>
       </Tab>
       <Tab eventKey="Postres" title="Postres" >
-        
+        <CardsPostres></CardsPostres>
       </Tab>
       <Tab eventKey="Bebidas" title="Bebidas" >
-        
+        <CardsBebidas></CardsBebidas>
       </Tab>
     </Tabs>
 
