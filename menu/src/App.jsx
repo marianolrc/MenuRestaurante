@@ -5,6 +5,7 @@ import PageNotFound from './pages/Error404';
 import MenuComidas from './pages/MenuComidas';
 import './App.css'
 import Home from './pages/Home';
+import Admin from './pages/Admin'
 
 
 const App = () => {
