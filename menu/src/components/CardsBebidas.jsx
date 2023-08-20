@@ -6,13 +6,16 @@ import pepsi from '../assets/Bebidas/pepsi.jpg'
 import jarrajugo from '../assets/Bebidas/jarrajugo.jpg'
 import vino from '../assets/Bebidas/vino.jpg'
 import cerveza2 from '../assets/Bebidas/cerveza2.jpg'
+import limonada from '../assets/Bebidas/limonada.jpg'
+import licuadorojo from '../assets/Bebidas/licuadorojo.jpg'
+import chocolatada from '../assets/Bebidas/chocolatada.jpg'
 
 function CardsBebidas() {
   return (
     <div className='d-flex flex-wrap justify-content-center'>
     <div className='m-2'>
       <Card style={{ width: '16rem' }} className='bg-dark'>
-        <Card.Img variant="top" src={pepsi} alt="Budin de pan" height="180" />
+        <Card.Img variant="top" src={pepsi} alt="Pepsi" height="180" />
         <Card.Body>
           <Card.Title className='text-center text-light'>Pepsi </Card.Title>
           <Card.Text className='text-center'>
@@ -26,7 +29,7 @@ function CardsBebidas() {
       </div>
         <div className='m-2'>
       <Card style={{ width: '16rem' }} className='bg-dark'>
-        <Card.Img variant="top" src={coca} alt="Papas Cerveceras" height="180" />
+        <Card.Img variant="top" src={coca} alt="Coca-cola" height="180" />
         <Card.Body>
           <Card.Title className='text-center text-light'>Coca-cola</Card.Title>
           <Card.Text className='text-center'>
@@ -40,7 +43,7 @@ function CardsBebidas() {
       </div>
     <div className='m-2'>
       <Card style={{ width: '16rem' }} className='bg-dark'>
-        <Card.Img variant="top" src={jarrajugo} alt="Copa de Helado de Frutilla" height="180" />
+        <Card.Img variant="top" src={jarrajugo} alt="Jarra de Jugo" height="180" />
         <Card.Body>
           <Card.Title className='text-center text-light'>Jarra de Jugo de Naranja</Card.Title>
           <Card.Text className='text-center'>
@@ -52,13 +55,41 @@ function CardsBebidas() {
         </Card.Body>
       </Card>
       </div>
-      <div className='m-2'>
-      <Card style={{ width: '16rem' }}  className='bg-dark'>
-        <Card.Img variant="top" src={vino} alt="Chocotorta"height="180" />
+    <div className='m-2'>
+      <Card style={{ width: '16rem' }} className='bg-dark'>
+        <Card.Img variant="top" src={limonada} alt="Jarra de Limonada" height="180" />
         <Card.Body>
-          <Card.Title className='text-center text-light'>Vinos</Card.Title>
+          <Card.Title className='text-center text-light'>Jarra de Limonada</Card.Title>
           <Card.Text className='text-center'>
-            Vinos Malbec a eleccion (Tintos, blancos y rosados).
+            Limon exprimido fresco. Se puede elegir el endulzante.
+          </Card.Text>
+          <div className='d-flex justify-content-center mt-4'>
+          <Button variant="success">Agregar</Button>
+          </div>
+        </Card.Body>
+      </Card>
+      </div>
+    <div className='m-2'>
+      <Card style={{ width: '16rem' }} className='bg-dark'>
+        <Card.Img variant="top" src={licuadorojo} alt="Licuado de Frutos Rojos" height="180" />
+        <Card.Body>
+          <Card.Title className='text-center text-light'>Licuado de Frutos Rojos</Card.Title>
+          <Card.Text className='text-center'>
+          Licuado de Frutos Rojos.
+          </Card.Text>
+          <div className='d-flex justify-content-center mt-4'>
+          <Button variant="success">Agregar</Button>
+          </div>
+        </Card.Body>
+      </Card>
+      </div>
+    <div className='m-2'>
+      <Card style={{ width: '16rem' }} className='bg-dark'>
+        <Card.Img variant="top" src={chocolatada} alt="Chocolatada con crema" height="180" />
+        <Card.Body>
+          <Card.Title className='text-center text-light'>Chocolatada con crema</Card.Title>
+          <Card.Text className='text-center'>
+          Chocolatada con crema.
           </Card.Text>
           <div className='d-flex justify-content-center mt-4'>
           <Button variant="success">Agregar</Button>
@@ -68,7 +99,21 @@ function CardsBebidas() {
       </div>
       <div className='m-2'>
       <Card style={{ width: '16rem' }}  className='bg-dark'>
-        <Card.Img variant="top" src={cerveza2} alt="Chocotorta"height="180" />
+        <Card.Img variant="top" src={vino} alt="Vinos" height="180" />
+        <Card.Body>
+          <Card.Title className='text-center text-light'>Vinos</Card.Title>
+          <Card.Text className='text-center'>
+            Vinos Malbec a eleccion.
+          </Card.Text>
+          <div className='d-flex justify-content-center mt-4'>
+          <Button variant="success">Agregar</Button>
+          </div>
+        </Card.Body>
+      </Card>
+      </div>
+      <div className='m-2'>
+      <Card style={{ width: '16rem' }}  className='bg-dark'>
+        <Card.Img variant="top" src={cerveza2} alt="Cerveza Artesanal"height="180" />
         <Card.Body>
           <Card.Title className='text-center text-light'>Cerveza Artesanal</Card.Title>
           <Card.Text className='text-center'>
