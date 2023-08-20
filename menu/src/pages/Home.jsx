@@ -18,8 +18,6 @@ const Home = () => {
     </div>
   </div>
   
-    <div className='bg-dark text-light text-center'><h1>Entradas</h1> </div>
-    <CardEntradas></CardEntradas>
 
   <div className='container-fluid bg-dark mt-3'>
   <Footer/>
