@@ -17,6 +17,7 @@ const Home = () => {
     <div className='Cards'>
     </div>
   </div> */}
+  
   <div className='mb-5'>
     <Carousel/>
   </div>
