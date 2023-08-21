@@ -1,22 +1,34 @@
 import NavBarMenu from "../components/NavBarMenu"
 import Footer from "../components/Footer"
-
+import {Tab ,Tabs} from 'react-bootstrap'
+import TablaUsuarios from "../components/TablaUsuarios"
+import FormMenu from "../components/FormMenu"
 const Admin = () => {
   return (
       <div className='Admin'>
       <NavBarMenu/>
     
+      <Tabs
+      defaultActiveKey="profile"
+      id="fill-tab-example"
+      className="mb-3"
+      fill
+    >
+      <Tab eventKey="Usuario" title="Usuario">
+        <TablaUsuarios/>
+      </Tab>
+      <Tab eventKey="Menues" title="Menues">
+       <FormMenu/>
+      </Tab>
+      <Tab eventKey="longer-tab" title="Loooonger Tab">
+        Tab content for Loooonger Tab
+      </Tab>
+      <Tab eventKey="contact" title="Contact" disabled>
+        Tab content for Contact
+      </Tab>
+    </Tabs>
       <div className="container">
-        <div className="usuario">
-          <div className="alta-usuario">
 
-
-            </div>  
-            <div className="inhabilitar-usuario">
-
-
-            </div>
-      </div>
       <div className="menus">
 
         <div className="alta-menus">
