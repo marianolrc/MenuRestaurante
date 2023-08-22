@@ -62,6 +62,7 @@ import { Navbar, Container, Nav, Image, Button, Modal, Form } from 'react-bootst
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import './NavBarMenu.css';
 import axios from 'axios';
+import logout from '../assets/img/logout.png'
 
 let isLoggedIn = false;
 let loggedInUserName = '';
@@ -115,11 +116,15 @@ const NavBarMenu = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-light' />
         <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="mx-auto">
-            <div className='d-flex justify-content-between'>
+            <div className='d-flex justify-content-between '>
             <NavLink className="nav-link" to="/" style={{ ...navLinkStyle, ...(isLinkActive('/') && activeLinkStyle) }}>Home</NavLink>
             <NavLink className="nav-link" to="/menu" style={{ ...navLinkStyle, ...(isLinkActive('/menu') && activeLinkStyle) }}>Menu</NavLink>
             <NavLink className="nav-link" to="/AboutUs" style={{ ...navLinkStyle, ...(isLinkActive('/AboutUs') && activeLinkStyle) }} >About Us</NavLink>
             </div>
+            <div className='d-flex flex-column align-items-center  NavbarLoggedin'>
+          
+            </div>
+            
             </Nav>
             <div className="d-flex align-items-center">
             {isLoggedIn ? (
@@ -140,6 +145,10 @@ const NavBarMenu = () => {
                                             <Button variant="dark" onClick={handleSignUpModalOpen}>
                                                 Registrate
                                             </Button>
+                                        </div>
+                                        <div>
+                                         <Image className='img-enlace' height={70} width={70} src={logout}   rounded />
+                                    
                                         </div>
                                     </>
                                 )}
