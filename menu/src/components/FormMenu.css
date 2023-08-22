@@ -16,14 +16,6 @@
     box-shadow: 0px 0px 6px 8px #16DB65 ;
 }
 
-select{
-    border-radius: 1rem;
-    padding: 4px;
-    font-weight: 600;
-    font-size: 16px;
-    border: none;
-    box-shadow: 0px 0px 6px 2px #000;
-}
 
 .formulario {
     padding: 20px;

@@ -42,6 +42,20 @@ export default function FormMenu(){
           precio: e.target.value,
         }));
       }
+      function cambioCategoria(e) {
+        e.preventDefault();
+        setDatos((valores) => ({
+          ...valores,
+          categoria_producto: e.target.value,
+        }));
+      }
+      function cambioSubCategoria(e) {
+        e.preventDefault();
+        setDatos((valores) => ({
+          ...valores,
+          subcategoria_producto: e.target.value,
+        }));
+      }
 
       function procesar(e) {
         e.preventDefault();
@@ -60,18 +74,12 @@ export default function FormMenu(){
         <div className='container-fluid formulario'>
         <form onSubmit={procesar}>
           <div className='form-group'>
-            <label htmlFor='catProducto'>Seleccione la Categoria del Producto:</label>
-            <select name='catProducto' id='catProducto'>
-              <option value="comidas">Comidas</option>
-              <option value="bebidas">Bebidas</option>
-              <option value="postres">Postres</option>
-            </select>
+            <label htmlFor='catProducto'>Ingrese la Categoria del Producto:</label>
+            <input type='text' name='nombreProducto' id='nombreProducto' value={datos.categoria_producto} onChange={cambioCategoria} />
           </div>
           <div className='form-group'>
-            <label>Seleccione la Subcategoria del Producto:</label>
-            <select name='subCatProducto' id='subCatProducto'>
-            <option value="minutas">Minutas</option>
-            </select>
+            <label>Ingrese la Subcategoria del Producto:</label>
+            <input type='text' name='nombreProducto' id='nombreProducto' value={datos.subcategoria_producto} onChange={cambioSubCategoria} />
           </div>
           <div className='form-group'>
             <label>Nombre del Producto:</label>
