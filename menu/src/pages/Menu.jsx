@@ -8,16 +8,18 @@ import CardPlatosPrincipales from '../components/cardPlatosPrincipales.jsx';
 import CardsPostres from '../components/CardsPostres.jsx';
 import CardsBebidas from '../components/CardsBebidas.jsx';
 import Footer from '../components/Footer.jsx';
+import NavbarLog from '../components/NavbarLog.jsx';
+import '../components/NavBarMenu.css'
 
 
 const Menu = () => {
 
     return (
         <>
-        <NavBarMenu/>
+        <NavbarLog/>
 
         <div >
-        <Tabs
+    {/*     <Tabs
       defaultActive="profile"
       id="uncontrolled-tab-example"
       className="mb-3 d-flex justify-content-center"
@@ -34,7 +36,7 @@ const Menu = () => {
       <Tab eventKey="Bebidas" title="Bebidas" >
         <CardsBebidas></CardsBebidas>
       </Tab>
-    </Tabs>
+    </Tabs> */}
 
     <div className='container-fluid bg-dark mt-3'>
     <Footer/>
