@@ -1,0 +1,10 @@
+[
+    {
+        "id":"1",
+        "categoria_producto":"Comidas",
+        "subcategoria_producto":"Minutas",
+        "nombre_producto":"Milanesas con pure",
+        "descripcion":"Milanesas con jamon, queso y salsa de Tomate con pure y perejil",
+        "precio":"1500"
+    }
+]

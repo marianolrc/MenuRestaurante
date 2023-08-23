@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "nombre_apellido":"Mariano Gonzalez",
+        "email":"mariano95@mail.com",
+        "contraseña":"12345",
+        "state":"active",
+        "rol":"cliente"
+    
+    },
+    {
+        "id": "2",
+        "nombre_apellido":"Paola Agüero",
+        "email":"PaoAguero@mail.com",
+        "contraseña":"12345",
+        "state":"active",
+        "rol":"cliente"
+    
+    },
+    {
+        "id": "3",
+        "nombre_apellido":"Andrea Reyes",
+        "email":"AndreaReyes12352@mail.com",
+        "contraseña":"12345",
+        "state":"active",
+        "rol":"cliente"
+    
+    }
+]
