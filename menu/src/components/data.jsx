@@ -2,7 +2,6 @@ export const data = [
 	{
 		id: 1,
 		product_img: './img/canelones.jpg',
-		product_name: 'Canelones',
 		product_description: 'Canelones de verduras y ricota',
 		product_price: 2500,
 		quantity: 1,

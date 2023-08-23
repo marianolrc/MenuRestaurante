@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Header } from '../components/Header.jsx';
 import { ProductList } from '../components/ProudctList.jsx'
 import Footer from '../components/Footer.jsx';
+import ButtonsMenuComidas from '../components/buttonsMenuComidas.jsx';
 import './MenuComidas.css'
 
 
@@ -14,6 +15,7 @@ function MenuComidas() {
   return (
     <>
     <NavBarMenu/>
+	<ButtonsMenuComidas/>
    
     <Header
 				allProducts={allProducts}
