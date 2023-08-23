@@ -1,12 +1,15 @@
 import Table from 'react-bootstrap/Table';
 import { Button } from 'react-bootstrap';
 import users from '../data/users.json'
+import './Tablas.css'
+
 const TablaUsuarios = () => {
 
 
 
   return (
-    <Table striped bordered hover>
+    <div className='container-fluid '>
+          <Table className='container-fluid tabla' bordered striped hover responsive>
       <thead>
         <tr>
           <th>Id</th>
@@ -15,7 +18,7 @@ const TablaUsuarios = () => {
           <th>Estado</th>
           <th>Rol</th>
           <th>Borrar</th>
-          <th>Modificar</th>
+
         </tr>
       </thead>
       <tbody>
@@ -28,13 +31,14 @@ const TablaUsuarios = () => {
             <td>{user.state}</td>
             <td>{user.rol}</td>
             <td><Button>Borrar</Button></td>
-            <td><Button>Modificar</Button></td>
+
           </tr>
         );
       })}
 
       </tbody>
     </Table>
+    </div>
   );
 }
 
