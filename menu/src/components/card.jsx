@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import PropTypes from "prop-types";
 
 import "./card.css";
@@ -33,4 +33,4 @@ Card.propTypes = {
   imageSource: PropTypes.string
 };
 
-export default Card;
+export default Card;*/

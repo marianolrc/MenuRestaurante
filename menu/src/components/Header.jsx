@@ -97,7 +97,9 @@ export const Header = ({
 								<h3>Total:</h3>
 								<span className='total-pagar'>${total}</span>
 							</div>
-
+							<button className='btn-continue' onClick={onCleanCart}>
+								Continuar con la compra
+							</button>
 							<button className='btn-clear-all' onClick={onCleanCart}>
 								Vaciar Carrito
 							</button>
