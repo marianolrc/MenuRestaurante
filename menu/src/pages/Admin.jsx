@@ -49,8 +49,8 @@ const Admin = () => {
         </div>
       </div>
       </div>
-      <div className='Footer'>
-      <Footer/>
+      <div className='Footer container-fluid'>
+      <Footer className='container-fluid'/>
       </div>
       </div>
   )

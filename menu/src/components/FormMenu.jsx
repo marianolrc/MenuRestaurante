@@ -1,5 +1,6 @@
 import {useState, useRef} from 'react'
 import '../components/FormMenu.css'
+import { Button } from 'react-bootstrap';
 
 export default function FormMenu(){
     const [datos, setDatos] = useState({
@@ -96,11 +97,11 @@ export default function FormMenu(){
           <div className='form-group'>
             <label>Seleccione una imagen para asociar al producto:</label>
             <input type='file' accept='image/*' onChange={handleImageSelect} ref={subirImagen} style={{ display: 'none' }} />
-            <button onClick={() => subirImagen.current.click()}>Seleccionar Imagen</button>
+            <Button className='bg-primary' onClick={() => subirImagen.current.click()}>Seleccionar Imagen</Button>
             {selectedImage && <p>Imagen seleccionada: {selectedImage.name}</p>}
           </div>
           <div className='form-group'>
-            <input type='submit' value='Cargar Producto' />
+            <input className='boton-carga' type='submit' value='Cargar Producto' />
           </div>
         </form>
       </div>

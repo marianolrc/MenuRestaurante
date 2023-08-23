@@ -1,5 +1,6 @@
 import './Tablas.css'
 import { useState } from 'react';
+import { Button } from 'react-bootstrap';
 
 const PedidosPendientes = () => {
 
@@ -66,9 +67,9 @@ const PedidosPendientes = () => {
               <td>{pedido.status}</td>
               <td>
                 {pedido.status === 'pendiente' && (
-                  <button onClick={() => handleStatusChange(pedido.id)}>
+                  <Button className='bg-success' onClick={() => handleStatusChange(pedido.id)}>
                     Marcar como Realizado
-                  </button>
+                  </Button>
                 )}
               </td>
             </tr>

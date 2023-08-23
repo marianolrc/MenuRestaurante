@@ -16,7 +16,15 @@
     box-shadow: 0px 0px 6px 8px #16DB65 ;
 }
 
-
+.boton-carga{
+  border: 1px solid #fff;
+  border-radius: 0.30rem;
+  padding: 0.4rem;
+  color: #fff;
+  background-color: #16DB65;
+  font-family: Arial, sans-serif;
+  
+}
 .formulario {
     padding: 20px;
   }
