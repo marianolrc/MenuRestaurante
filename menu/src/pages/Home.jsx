@@ -11,11 +11,16 @@ const Home = () => {
           <NavBarMenu/>
           
     <div className="container">
-    <Carousel/>
+   <div className='Carusel'>
+   <Carousel/>
+   </div>
+   
     <div className='Cards'>
+     
     <Cards/>
+    
+    
     </div>
-  
   </div>
   <div className='Footer'>
   <Footer/>
