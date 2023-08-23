@@ -6,11 +6,16 @@ import FormMenu from "../components/FormMenu"
 import TablaMenu from "../components/TablaMenu"
 import PedidosPendientes from "../components/PedidosPendientes"
 
+
+
 const Admin = () => {
+
+
   return (
       <div className='Admin'>
       <NavBarMenu/>
     
+    <div className="container-fluid">
       <Tabs
       defaultActiveKey="Usuario"
       className="mb-3"
@@ -29,26 +34,8 @@ const Admin = () => {
         <PedidosPendientes/>
       </Tab>
     </Tabs>
-      <div className="container">
 
-      <div className="menus">
-
-        <div className="alta-menus">
-
-
-        </div>
-        <div className="modif-menus">
-
-
-        </div>
-        <div className="baja-menus"></div>
-      </div>
-      <div className="pedidos">
-        <div className="modif-pedidos">
-          
-        </div>
-      </div>
-      </div>
+    </div>
       <div className='Footer container-fluid'>
       <Footer className='container-fluid'/>
       </div>
