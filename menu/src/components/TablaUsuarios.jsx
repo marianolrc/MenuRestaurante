@@ -1,15 +1,22 @@
-import Table from 'react-bootstrap/Table';
+import  { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import users from '../data/users.json'
 import './Tablas.css'
 
 const TablaUsuarios = () => {
+  
+  const [userList, setUserList] = useState(users); // Estado para almacenar la lista de usuarios
 
+  const handleDelete = (userId) => {
+    // Filtrar la lista de usuarios para eliminar el usuario con el ID dado
+    const updatedUserList = userList.filter(user => user.id !== userId);
+    setUserList(updatedUserList); // Actualizar el estado con la nueva lista de usuarios
+  };
 
 
   return (
-    <div className='container-fluid '>
-          <Table className='container-fluid tabla' bordered striped hover responsive>
+    <div className="table-container">
+          <table className='responsive-table' >
       <thead>
         <tr>
           <th>Id</th>
@@ -30,14 +37,16 @@ const TablaUsuarios = () => {
             <td>{user.email}</td>
             <td>{user.state}</td>
             <td>{user.rol}</td>
-            <td><Button>Borrar</Button></td>
+            <td>
+                <Button onClick={() => handleDelete(user.id)}>Borrar</Button>
+              </td>
 
           </tr>
         );
       })}
 
       </tbody>
-    </Table>
+    </table>
     </div>
   );
 }

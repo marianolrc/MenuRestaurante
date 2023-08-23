@@ -4,6 +4,7 @@ import {Tab ,Tabs } from 'react-bootstrap'
 import TablaUsuarios from "../components/TablaUsuarios"
 import FormMenu from "../components/FormMenu"
 import TablaMenu from "../components/TablaMenu"
+import PedidosPendientes from "../components/PedidosPendientes"
 
 const Admin = () => {
   return (
@@ -25,7 +26,7 @@ const Admin = () => {
         <TablaMenu/>
       </Tab>
       <Tab eventKey="pedidos" title="Pedidos Pendientes">
-        Tabla de contenido para los pedidos pendientes
+        <PedidosPendientes/>
       </Tab>
     </Tabs>
       <div className="container">

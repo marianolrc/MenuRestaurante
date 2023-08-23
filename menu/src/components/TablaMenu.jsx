@@ -1,11 +1,11 @@
-import Table from 'react-bootstrap/Table';
+
 import { Button } from 'react-bootstrap';
 import productos from '../data/productos.json'
 import './Tablas.css'
 const TablaMenu = () => {
   return (
-    <div className='container-fluid'>
-    <Table className='tabla container-fluid' striped bordered hover responsive>
+    <div className="table-container">
+    <table className="responsive-table">
       <thead>
         <tr>
           <th>Id</th>
@@ -35,7 +35,7 @@ const TablaMenu = () => {
       })}
 
       </tbody>
-    </Table>
+    </table>
     </div>
   )
 }
