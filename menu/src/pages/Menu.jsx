@@ -10,6 +10,8 @@ import CardsBebidas from '../components/CardsBebidas.jsx';
 import Footer from '../components/Footer.jsx';
 import NavbarLog from '../components/NavbarLog.jsx';
 import '../components/NavBarMenu.css'
+import MenuComidas from './MenuComidas.jsx';
+import '../pages/MenuComidas.css'
 
 
 const Menu = () => {
@@ -19,24 +21,7 @@ const Menu = () => {
         <NavbarLog/>
 
         <div >
-    {/*     <Tabs
-      defaultActive="profile"
-      id="uncontrolled-tab-example"
-      className="mb-3 d-flex justify-content-center"
-    >
-      <Tab eventKey="Entradas" title="Entradas" >
-        <CardEntradas></CardEntradas>
-      </Tab>
-      <Tab eventKey="Platos Principales" title="Platos Principales">
-       <CardPlatosPrincipales></CardPlatosPrincipales>
-      </Tab>
-      <Tab eventKey="Postres" title="Postres" >
-        <CardsPostres></CardsPostres>
-      </Tab>
-      <Tab eventKey="Bebidas" title="Bebidas" >
-        <CardsBebidas></CardsBebidas>
-      </Tab>
-    </Tabs> */}
+    {<MenuComidas/>}
 
     <div className='container-fluid bg-dark mt-3'>
     <Footer/>
