@@ -28,8 +28,8 @@ const TablaMenu = () => {
             <td>{productos.nombre_producto}</td>
             <td>{productos.descripcion}</td>
             <td>{productos.precio}</td>
-            <td><Button className='bg-black'>Borrar</Button></td>
             <td><Button className='bg-danger'>Modificar</Button></td>
+            <td><Button className='bg-black'>Borrar</Button></td>
           </tr>
         );
       })}
