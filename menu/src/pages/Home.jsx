@@ -1,14 +1,33 @@
-import React from 'react'
+
+import NavBarMenu from '../components/NavBarMenu.jsx'
+import Footer from '../components/Footer.jsx'
+import Carousel from '../components/Carousel.jsx'
+import Cards from '../components/cards.jsx'
+import './Home.css'
 
 const Home = () => {
   return (
+    <div className='Home'>
+          <NavBarMenu/>
+          
     <div className="container">
-    <div className="row">
-        <div className="col">
-            <h1>Home</h1>
-        </div>
+   <div className='Carusel'>
+   <Carousel/>
+   </div>
+   
+    <div className='Cards'>
+     
+    <Cards/>
+    
+    
     </div>
-</div>
+  </div>
+  <div className='Footer'>
+  <Footer/>
+  </div>
+  
+
+    </div>
   )
 }
 
