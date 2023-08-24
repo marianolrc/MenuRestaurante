@@ -23,7 +23,7 @@ export const data = [
 		quantity: 1,
 	},
 	{
-		id: 1,
+		id: 4,
 		product_img: './img/tallarines.jpg',
 		product_name: 'Tallarines',
 		product_description: 'Tallarines con salsa bolognesa',
