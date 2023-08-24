@@ -1,0 +1,49 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.barranav{
+    background-image: linear-gradient(to right bottom, black,#04471c);
+
+}
+
+.nav-link{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    text-shadow: 2px 2px 6px #16DB65;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+.nav-link:hover{
+    font-size: 20px;
+    letter-spacing: 2px;
+    animation: shake-baidu 2s ease 0s infinite;
+    transition: 1s;
+}
+
+.nav-center{
+    justify-content: center;
+}
+
+@keyframes shake-baidu {
+    from    { transform: rotate(0deg); }
+    4%      { transform: rotate(5deg); }
+    12.5%   { transform: rotate(-5deg); }
+    21%     { transform: rotate(5deg); }
+    29%     { transform: rotate(-5deg); }
+    37.5%   { transform: rotate(5deg); }
+    46%     { transform: rotate(-5deg); }
+    50%,to  { transform: rotate(0deg); }
+  }
+
+  .img-nav{
+    box-shadow: 2px 2px 6px #16DB65;
+  }
