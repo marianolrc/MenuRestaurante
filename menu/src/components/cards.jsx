@@ -3,7 +3,7 @@ import Card from './card'
 import Imagen1 from '../assets/img/comidas.jpg'
 import Imagen2 from '../assets/img/bebidas.jpg'
 import Imagen3 from '../assets/img/postres.jpg'
-import './cards.css'
+import '../css/cards.css'
   
 const cards = [
     {

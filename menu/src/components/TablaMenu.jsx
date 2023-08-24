@@ -1,7 +1,7 @@
 
 import { Button } from 'react-bootstrap';
 import productos from '../data/productos.json'
-import './Tablas.css'
+import '../css/Tablas.css'
 const TablaMenu = () => {
   return (
     <div className="table-container">

@@ -1,7 +1,7 @@
 import  { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import users from '../data/users.json'
-import './Tablas.css'
+import '../css/Tablas.css'
 
 const TablaUsuarios = () => {
   

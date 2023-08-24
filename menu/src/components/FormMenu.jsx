@@ -1,5 +1,5 @@
 import {useState, useRef} from 'react'
-import '../components/FormMenu.css'
+import '../css/FormMenu.css'
 import { Button } from 'react-bootstrap';
 
 export default function FormMenu(){
@@ -68,6 +68,8 @@ export default function FormMenu(){
       
         alert(`Dato Cargado ${datos.nombre_producto}, ${datos.descripcion} y ${datos.precio}`);
       }
+
+      
       
       
     return(

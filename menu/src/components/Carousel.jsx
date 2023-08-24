@@ -2,7 +2,7 @@
 import { Image, Container, Carousel } from 'react-bootstrap';
 import Banner from '../assets/img/milanesas_pure.jpg'
 import Banner2 from '../assets/img/pizza.jpg'
-import '../components/Carousel.css'
+import '../css/Carousel.css'
 
 const CarouselBanner = () => {
 

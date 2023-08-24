@@ -1,7 +1,7 @@
 import {Navbar, Container, Nav, Image, Button, Modal, Form} from 'react-bootstrap'
 import {useState} from 'react';
 import {NavLink , useLocation, useNavigate} from 'react-router-dom'
-import './NavBarMenu.css'
+import '../css/NavBarMenu.css'
 import axios from 'axios';
 
 

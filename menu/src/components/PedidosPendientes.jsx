@@ -1,4 +1,4 @@
-import './Tablas.css'
+import '../css/Tablas.css'
 import { useState } from 'react';
 import { Button } from 'react-bootstrap';
 
