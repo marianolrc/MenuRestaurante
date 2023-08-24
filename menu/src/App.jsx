@@ -23,7 +23,6 @@ const App = () => {
       <Route path='/admin' element={<Admin/>}/>
       <Route path='*' element={<PageNotFound/>}/>
       <Route path='/menu' element={<MenuComidas/>}/>
-
       <Route path='/pagos' element={<Pagos/>}/>
 
     

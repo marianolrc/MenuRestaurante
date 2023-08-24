@@ -1,6 +1,6 @@
 import {Navbar, Container, Nav, Image} from 'react-bootstrap'
 import {NavLink , useLocation} from 'react-router-dom'
-import './NavBarMenu.css'
+import '../css/NavBarMenu.css'
 import Button from 'react-bootstrap/Button';
 import loggedin from '../assets/img/loggedin.png'
 

@@ -2,7 +2,7 @@ import React from 'react'
 import {Navbar, Image} from 'react-bootstrap'
 import NavbarLog from '../components/NavbarLog.jsx';
 import Footer from '../components/Footer.jsx';
-import '../components/NavBarMenu.css'
+import '../css/NavBarMenu.css'
 import credit from '../assets/img/credit.png'
 import efectivo from '../assets/img/efectivo.png'
 import debit from '../assets/img/debit2.png'

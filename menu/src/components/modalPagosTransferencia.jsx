@@ -5,7 +5,7 @@ import Modal from 'react-bootstrap/Modal';
 import debit from '../assets/img/debit2.png'
 import transferencia from '../assets/img/transferencia.png'
 import {Navbar, Image} from 'react-bootstrap'
-import '../components/NavBarMenu.css'
+import '../css/NavBarMenu.css'
 
 import React from 'react';
 import { Form, FormControl, FormGroup, FormLabel } from 'react-bootstrap';

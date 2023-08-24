@@ -5,7 +5,7 @@ import efectivo from '../assets/img/efectivo.png'
 import credit from '../assets/img/credit.png'
 import debit from '../assets/img/debit2.png'
 import {Navbar, Image} from 'react-bootstrap'
-import '../components/NavBarMenu.css'
+import '../css/NavBarMenu.css'
 
 import React from 'react';
 import { Form, FormControl, FormGroup, FormLabel } from 'react-bootstrap';
