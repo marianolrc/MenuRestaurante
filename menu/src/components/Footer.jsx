@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import {Image} from "react-bootstrap"
-import './Footer.css'
+import '../css/Footer.css'
 
 const Footer= () => {
     return(
-        <div>
+        <div className="container-fluid">
             <footer className="text-white py-4">
                 <div className="conteiner">
                     <nav className="row">
