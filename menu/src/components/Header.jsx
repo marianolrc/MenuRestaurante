@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 export const Header = ({
 	allProducts,
@@ -97,9 +98,10 @@ export const Header = ({
 								<h3>Total:</h3>
 								<span className='total-pagar'>${total}</span>
 							</div>
-							<button className='btn-continue' onClick={onCleanCart}>
-								Continuar con la compra
+							<button className='btn-continue'>
+							<NavLink className='Nav-Link' to='/pagos'>Continuar con la compra</NavLink>
 							</button>
+
 							<button className='btn-clear-all' onClick={onCleanCart}>
 								Vaciar Carrito
 							</button>

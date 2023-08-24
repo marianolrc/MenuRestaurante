@@ -6,6 +6,7 @@ import Admin from './pages/Admin';
 import './App.css'
 import Home from './pages/Home';
 import MenuComidas from './pages/MenuComidas';
+import Pagos from './pages/Pagos';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Route path='/admin' element={<Admin/>}/>
       <Route path='*' element={<PageNotFound/>}/>
       <Route path='/menu' element={<MenuComidas/>}/>
+      <Route path='/pagos' element={<Pagos/>}/>
     
 
 

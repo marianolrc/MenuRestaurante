@@ -4,35 +4,19 @@ import { useState } from 'react';
 import { Header } from '../components/Header.jsx';
 import { ProductList } from '../components/ProudctList.jsx'
 import Footer from '../components/Footer.jsx';
-import ButtonsMenuComidas from '../components/buttonsMenuComidas.jsx';
 import './MenuComidas.css'
+import MenuOptions from '../components/Menu-options.jsx';
 
 
 function MenuComidas() {
-  const [allProducts, setAllProducts] = useState([]);
-	const [total, setTotal] = useState(0);
-	const [countProducts, setCountProducts] = useState(0);
+ 
   return (
     <>
     <NavBarMenu/>
-	<ButtonsMenuComidas/>
+	<MenuOptions/>
+	
    
-    <Header
-				allProducts={allProducts}
-				setAllProducts={setAllProducts}
-				total={total}
-				setTotal={setTotal}
-				countProducts={countProducts}
-				setCountProducts={setCountProducts}
-			/>
-			<ProductList
-				allProducts={allProducts}
-				setAllProducts={setAllProducts}
-				total={total}
-				setTotal={setTotal}
-				countProducts={countProducts}
-				setCountProducts={setCountProducts}
-			/>
+
       <div className='Footer'>
       <Footer/>
       </div>
