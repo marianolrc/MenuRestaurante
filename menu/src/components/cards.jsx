@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import Card from './card'
 import Imagen1 from '../assets/img/comidas.jpg'
 import Imagen2 from '../assets/img/bebidas.jpg'
@@ -43,5 +43,5 @@ const cards = [
     );
   }
   
-  export default Cards;
+  export default Cards;*/
   

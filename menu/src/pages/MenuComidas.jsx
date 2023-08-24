@@ -1,13 +1,28 @@
 import React from 'react'
 import NavBarMenu from '../components/NavBarMenu.jsx'
+import { useState } from 'react';
+import { Header } from '../components/Header.jsx';
+import { ProductList } from '../components/ProudctList.jsx'
+import Footer from '../components/Footer.jsx';
+import './MenuComidas.css'
+import MenuOptions from '../components/Menu-options.jsx';
+
 
 function MenuComidas() {
+ 
   return (
-    <div>
-        <NavBarMenu/>
+    <>
+    <NavBarMenu/>
+	<MenuOptions/>
+	
+   
 
-        
-    </div>
+      <div className='Footer'>
+      <Footer/>
+      </div>
+     
+  
+      </>
   )
 }
 
