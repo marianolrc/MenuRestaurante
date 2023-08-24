@@ -1,0 +1,7 @@
+.Footer{
+    width: 100% !important;
+    margin-top: 2rem;
+    padding: 0;
+    background: black;
+    overflow-x: hidden!important;
+}

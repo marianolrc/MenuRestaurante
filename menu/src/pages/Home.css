@@ -1,0 +1,8 @@
+.Home{
+    background-repeat: no-repeat;
+       background-size: cover;
+   
+       background: rgb(158,232,136);
+       background: linear-gradient(54deg, rgba(158,232,136,0.6979166666666667) 36%, rgba(243,250,243,0.6082808123249299) 94%);
+   
+   }

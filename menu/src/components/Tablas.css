@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tabla{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  @media (max-width: 600px) {
+    th, td {
+      padding: 5px;
+      font-size: 12px;
+    }
+  
+    /* Ocultar encabezados de columna */
+    th {
+      display: none;
+    }
+  
+    /* Mostrar datos en formato de fila en lugar de celdas */
+    tr {
+      display: block;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+  
+    td:before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+    }
+  }
