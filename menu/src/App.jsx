@@ -13,7 +13,7 @@ const App = () => {
       <Route path='/' element={<HomeScreen/>}/>
       <Route path='/admin' element={<Admin/>}/>
       <Route path='*' element={<PageNotFound/>}/>
-      <Route path='/MenuComidas' element={<MenuComidas/>}/>
+      <Route path='/menu' element={<MenuComidas/>}/>
     
 
 
