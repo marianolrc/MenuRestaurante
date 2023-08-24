@@ -9,7 +9,7 @@ import sorrentinos from '../assets/PlatosPrincipales/sorrentinos.jpg'
 import locro from '../assets/PlatosPrincipales/locro.jpg'
 import humita from '../assets/PlatosPrincipales/humita.jpg'
 import lasaña from '../assets/PlatosPrincipales/lasaña.jpg'
-import '../components/ComidaHome.css';
+import '../css/ComidaHome.css';
 
 function CardPlatosPrincipales() {
   return (

@@ -60,7 +60,7 @@ const NavBarMenu = () => {
             <div className='d-flex justify-content-between '>
             <NavLink className="nav-link" to="/" style={{ ...navLinkStyle, ...(isLinkActive('/') && activeLinkStyle) }}>Home</NavLink>
             <NavLink className="nav-link" to="/menu" style={{ ...navLinkStyle, ...(isLinkActive('/menu') && activeLinkStyle) }}>Menu</NavLink>
-            <NavLink className="nav-link" to="/AboutUs" style={{ ...navLinkStyle, ...(isLinkActive('/AboutUs') && activeLinkStyle) }} >Sobre Nosotros</NavLink>
+            <NavLink className="nav-link" to="/acercade" style={{ ...navLinkStyle, ...(isLinkActive('/AboutUs') && activeLinkStyle) }} >Sobre Nosotros</NavLink>
             </div>
             <div className='d-flex flex-column align-items-center  NavbarLoggedin'>
           

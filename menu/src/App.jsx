@@ -5,12 +5,8 @@ import PageNotFound from './pages/Error404';
 import './App.css'
 import Admin from './pages/Admin';
 import MenuComidas from './pages/MenuComidas';
-
-import Admin from './pages/Admin';
-import './App.css'
-import Home from './pages/Home';
-import MenuComidas from './pages/MenuComidas';
 import Pagos from './pages/Pagos';
+import AboutUs from './pages/AboutUs';
 
 
 
@@ -24,6 +20,7 @@ const App = () => {
       <Route path='*' element={<PageNotFound/>}/>
       <Route path='/menu' element={<MenuComidas/>}/>
       <Route path='/pagos' element={<Pagos/>}/>
+      <Route path='/acercade' element={<AboutUs/>}/>
 
     
 
