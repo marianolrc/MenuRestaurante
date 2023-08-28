@@ -14,7 +14,7 @@ const CarouselBanner = () => {
 
   return (
 
-    <Container fluid className='p-0 my-1' >
+    <Container fluid className='carrousel_container p-0 my-1' >
       <Carousel fade>
       <Carousel.Item>
         <Image src={Banner} alt='Milanesas con Pure'  className=' w-100 img-car' height={500} rounded />

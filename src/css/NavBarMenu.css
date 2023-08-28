@@ -1,7 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
 
-
 *{
     padding: 0;
     margin: 0;
@@ -55,12 +54,41 @@
     
   }
 
-  .NavbarLoginButtons{
+  /* .NavbarLoginButtons{
     margin-left: 15rem;
     margin-top: 2rem;
-  }
+  } */
 
   .botonpagos{
     margin-left: 2.5rem;
     width: 16rem;
   }
+
+  .mx-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .align-horizontal {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.align-horizontal > * {
+    margin-right: 10px; /* Espacio entre los elementos */
+}
+
+.align-horizontal Button {
+  margin: 5%;
+}
